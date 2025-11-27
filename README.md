@@ -48,11 +48,10 @@ El resultado es un clasificador eficiente, interpretable y fácil de usar, con u
 
 ```
 .
-├── spam.csv                    # Dataset clásico de spam/ham
+├── spam.csv                    # Dataset de spam/ham usado para entrenamiento del modelo
 ├── spam_classifier.py          # Entrenamiento, embeddings y función de clasificación
 ├── app_spam_mail_interface.py  # Aplicación Streamlit con interfaz tipo chat
 ├── requirements.txt            # Dependencias del proyecto
-├── .env                        # (Opcional) Clave de API de OpenAI
 └── README.md                   # Documentación del proyecto
 ```
 
