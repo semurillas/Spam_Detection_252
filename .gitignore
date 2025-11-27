@@ -1,0 +1,20 @@
+# ---- Entorno virtual ----
+venv/
+venvspam/
+
+# ---- Archivos secretos ----
+.env
+
+# ---- Archivos de Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---- Configuración VSCode ----
+.vscode/
+
+# ---- Archivos temporales ----
+*.log
+*.tmp
+.DS_Store

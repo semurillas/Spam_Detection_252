@@ -1,0 +1,21 @@
+# ----------------------------------------------------------
+# Dependencias del proyecto: Clasificador de Spam con LLM
+# ----------------------------------------------------------
+
+# NumPy: Manejo de arreglos numéricos y matrices (base de Scikit-Learn).
+numpy>=1.24,<3.0
+
+# Pandas: Lectura y manipulación de datos tabulares (carga de spam.csv).
+pandas>=1.5,<3.0
+
+# Scikit-Learn: Entrenamiento del modelo LogisticRegression y evaluación.
+scikit-learn>=1.3,<2.0
+
+# OpenAI: Cliente oficial para generar embeddings con la API de OpenAI.
+openai>=1.0,<2.0
+
+# Python-dotenv: Carga de variables de entorno desde archivo .env (API key).
+python-dotenv>=1.0,<2.0
+
+# Streamlit: Librería para crear la interfaz web interactiva tipo chat.
+streamlit>=1.30,<2.0
