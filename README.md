@@ -1,3 +1,25 @@
+<h1> <img width="207" height="112" alt="image" src="https://github.com/user-attachments/assets/89fd906b-04fb-4d4f-b5e6-8375083a8a01" /></h1>
+<h1>📚 Maestría en Inteligencia Artificial Aplicada – 3er Semestre</h1>
+
+<h3>Asignatura: Hackeando la Inteligencia Artificial</h3>
+
+<h3>Taller Detección de Spam</h3>
+
+<hr style="width:60%;">
+
+<h3>👨‍🎓 Estudiantes</h3>
+<ul style="list-style:none; padding:0; font-size:18px;">
+    <li>Claudia Martinez</li>
+    <li>Enrique Manzano</li> 
+    <li>Sebastián Murillas</li>
+    <li>Octavio Guerra</li>
+</ul>
+
+<hr style="width:60%;">
+
+<h3>📅 Fecha: Noviembre 27, 2025</h3>
+
+
 # 📧 Clasificador de Spam usando LLM Embeddings + Logistic Regression
 
 Este proyecto implementa un **clasificador de spam** para el *subject* (asunto) de correos electrónicos.  
