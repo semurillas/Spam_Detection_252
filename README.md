@@ -22,14 +22,13 @@
 
 # 📧 Clasificador de Spam usando LLM Embeddings + Logistic Regression
 
-Este proyecto implementa un **clasificador de spam** para el *subject* (asunto) de correos electrónicos.  
-Hace parte de mi trabajo en la **Maestría en Inteligencia Artificial**, en la asignatura *Hackeando la Inteligencia Artificial*, donde exploramos cómo aprovechar modelos fundacionales (LLMs) combinados con técnicas tradicionales de Machine Learning.
+En este Taller práctico que hace parte del proceso de aprendizaje de la asignatura **Hackeando la Inteligencia Artificial** hemos desarrollado e implementado un **clasificador de spam** para el *subject* (asunto) de algún correo electrónico, usando un modelo de Lenguaje Grande (LLM) combinado con técnicas tradicionales de Machine Learning. Este último para realizar el proceso de Clasificación binaria, que determina si el asunto (subject) es Spam o no lo es.
 
 ---
 
 ## 🧠 Descripción del proyecto
 
-El objetivo principal es entrenar un sistema que detecte si el asunto de un correo es:
+El objetivo principal es entrenar un sistema que detecte si el asunto (subject) de un correo es:
 
 - **Spam ❌**  
 - **No Spam ✅**
@@ -72,7 +71,7 @@ cd tu-repo
 
 ### 2️⃣ Crear entorno virtual
 
-Aquí uso el nombre `venvspam`, pero puede ser cualquiera:
+Aquí usamos el nombre `venvspam`, pero puede ser cualquiera:
 
 ```bash
 python -m venv venvspam
@@ -128,7 +127,7 @@ http://localhost:8501
 
 ## 💻 Uso de la aplicación
 
-1. La app entrenará el modelo la primera vez (queda cacheado).  
+1. La app entrenará el modelo la primera vez.  
 2. Aparecerá una interfaz tipo **chat**.  
 3. Se ingresa el asunto (*subject*) de un correo.  
 4. El modelo devolverá una predicción:
@@ -148,32 +147,3 @@ http://localhost:8501
 - **dotenv**
 
 ---
-
-## 🎯 Objetivo académico
-
-Este proyecto busca mostrar cómo:
-
-- Los **embeddings de un LLM** pueden integrarse con modelos tradicionales.  
-- Se puede “hackear” y reaprovechar la capacidad semántica de los LLMs.  
-- Los modelos ligeros siguen siendo útiles y eficientes en tareas de clasificación.  
-
-Ideal como ejercicio para la materia *Hackeando la Inteligencia Artificial*.
-
----
-
-## 🚀 Mejoras futuras
-
-Algunas ideas para extender este proyecto:
-
-- Persistencia del modelo con `joblib` para evitar reentrenar.  
-- Añadir explicabilidad (SHAP / LIME).  
-- API REST con FastAPI.  
-- Añadir análisis del cuerpo completo del correo.  
-- Pipeline MLOps simple.
-
----
-
-## 👨‍🎓 Autor
-
-Proyecto realizado como parte de la **Maestría en Inteligencia Artificial**.  
-Comentarios, mejoras o PRs son bienvenidos.
